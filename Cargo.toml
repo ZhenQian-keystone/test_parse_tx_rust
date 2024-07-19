@@ -1,0 +1,18 @@
+[package]
+name = "test_parse_tx_rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anchor-lang-idl = {version = "0.1.1",features = ["build","convert"]}
+borsh = {version = "1.5.1",features = ["derive","borsh-derive","unstable__schema"]}
+
+
+bs58 = "0.5.1"
+hex = "0.4.3"
+serde_json = "1.0.120"
+solana-program = "2.0.2"
+base64 = "0.12.3"
+sha2 = "0.10.8"
+serde = { version = "1.0.203", features = ["derive"] }
+thiserror = "1.0.63"

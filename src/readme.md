@@ -1,0 +1,1 @@
+https://transform.tools/json-to-rust-serde
